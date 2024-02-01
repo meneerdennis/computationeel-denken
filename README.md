@@ -370,7 +370,7 @@ turtle.right(90)
 
 **Vooruit** met turtle:
 
-![](Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.005.png)
+![](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.005.png)
 
 ​
 
