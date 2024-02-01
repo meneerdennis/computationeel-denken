@@ -6,13 +6,12 @@
 ### De print functie
 
 Met Python is het mogelijk om tekst en getallen op het scherm te tonen. Dat doe je met de functie print(). Deze functie "print" gewoon de informatie die je wilt op het scherm.
-''''
-print ("Dit komt dus op het scherm terecht.")
-print ("We gaan nu een paar sommetjes doen:")
-print (230-21)
-print (78-2+6)
-print (78-2\*6)
-''''
+
+    print ("Dit komt dus op het scherm terecht.")
+    print ("We gaan nu een paar sommetjes doen:")
+    print (230-21)
+    print (78-2+6)
+    print (78-2\*6)
 
 Zoals je ziet kun je ook berekeningen tussen de haakjes van de print()-functie zetten. Let er wel op dat de voorrangsregels van de wiskunde ook gelden voor programmeertalen: de \* en de / gaan dus vóór de + en de -.
 
@@ -37,23 +36,17 @@ Dit doen we met behulp van de print()-functie. ^\_^
 
 Vaak wil je in je programma tijdelijk gegevens bewaren. Dit doe je met ***variabelen***. **Een variabele kun je zien als een emmer met een label erop**. Je kunt er iets in zetten en je kunt er iets uithalen. Hieronder zie je een stukje code met ernaast een plaatje waarop te zien is wat er gebeurt:
 
-a = 20
-
-b = 15
-
-c = "hallo"
-
-​
+    a = 20
+    b = 15
+    c = "hallo"
 
 Je kun nu doen:
 
-print(c)
-
-​
+    print(c)
 
 of:
 
-print(a+b)
+    print(a+b)
 
 
 ![](afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.003.png)
@@ -68,44 +61,34 @@ We kunnen nu ook een vierde emmer genaamd d in het leven roepen. In die variabel
 
 ![](afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.004.png)
 
-a = 20
+    a = 20
+    b = 15
+    c = "hallo"
+    d = a - b
 
-b = 15
+    \# d is 20 - 15 is 5
 
-c = "hallo"
+    print(d)
 
-​
-
-d = a - b
-
-\# d is 20 - 15 is 5
-
-print(d)
-
-\# dit zal 5 uitprinten
+    \# dit zal 5 uitprinten
 
 We halen dus het getal 20 uit emmer a en we halen het getal 15 uit emmer b. Het verschil wordt vervolgens berekend en het antwoord komt in emmer d te staan.
 
 Uiteindelijk zouden we ook de inhoud van de variabelen op het scherm kunnen tonen. Dat doen we natuurlijk met de functie print. Dit gaat zo:
 
-print (a)
-
-print (b)
-
-print (c)
-
-print (d)	
+    print (a)
+    print (b)
+    print (c)
+    print (d)	
 
 
 ### Opdracht 3
 
 Schrijf een programma waarbij je de volgende berekeningen doet in Python: 
 
-8483937 - 523455 
-
-23\.22342 \* 34309483 
-
-218739345 + 3498348
+    8483937 - 523455 
+    23\.22342 \* 34309483 
+    218739345 + 3498348
 
 Stop de antwoorden in drie verschillende variabelen. Tel de drie antwoorden bij elkaar op en print het uiteindelijke antwoord.
 
@@ -113,19 +96,13 @@ Stop de antwoorden in drie verschillende variabelen. Tel de drie antwoorden bij 
 
 De naam van een variabele kan je altijd zelf bepalen. Dus als je berekeningen wilt doen met je favoriete getal, kan je deze in een variabele stoppen met als naam bijvoorbeeld favoriete\_getal. Dit is handig omdat je dan makkelijk kan bijhouden wat er in de variabelen zit. Noem je variabelen dus altijd op een logische manier! Kijk maar naar het volgende voorbeeld:
 
-favoriete\_getal = 7
-
-print (favoriete\_getal + 1)
-
-print (favoriete\_getal)
-
-print (favoriete\_getal \* 2)
-
-favoriete\_getal = 4 + 5
-
-print (favoriete\_getal)
-
-print ("favoriete\_getal")
+    favoriete\_getal = 7
+    print (favoriete\_getal + 1)
+    print (favoriete\_getal)
+    print (favoriete\_getal \* 2)
+    favoriete\_getal = 4 + 5
+    print (favoriete\_getal)
+    print ("favoriete\_getal")
 
 Zoals je kan zien zijn de eerste drie antwoorden van het programma (dit worden ook wel **outputs** genoemd) gewoon een wiskundesom die de inhoud van onze variabelen gebruikt. Daarna wordt er een verandering gemaakt in de variabele favoriete\_getal. Er wordt een andere waarde aan de variabele gegeven, namelijk 4 + 5, dus 9. Je kan na het toewijzen van de waarde van een variabelen deze dus altijd ook nog later veranderen.
 
@@ -134,17 +111,12 @@ Bij de laatste output zien we iets vreemd. Doordat er " " om favoriete\_getal st
 
 Bij de vorige opdrachten heb je steeds een aparte string geprint op het scherm. Nu bestaat er ook iets als string concatenation, waarin je twee strings samen kan voegen. Concatenation is een Engels woord voor “aaneenschakeling”, en in python is dit ontzettend makkelijk: Je plakt twee string aan elkaar vast met een “+” of een “,”! Probeer maar:
 
-leerling\_naam = "Joop"
+    leerling\_naam = "Joop"
+    print ("Hallo, dit is deel een!" , "En dit is deel twee!")
+    print ("Jouw naam is " + leerling\_naam)
 
-print ("Hallo, dit is deel een!" , "En dit is deel twee!")
-
-print ("Jouw naam is " + leerling\_naam)
-
-​
-
-kledingstuk = "broek"
-
-print("Wat heb je een mooie " + kledingstuk, "aan.")
+    kledingstuk = "broek"
+    print("Wat heb je een mooie " + kledingstuk, "aan.")
 
 ​
 
@@ -152,24 +124,16 @@ print("Wat heb je een mooie " + kledingstuk, "aan.")
 
 Schrijf steeds een programma waarin je de gegeven variabele op de goede plek in de string gebruikt zoals in het voorbeeld.
 
-naam = Lotte 
+    naam = Lotte 
+    <naam> heeft pannenkoeken gegeten! 
+    naam = Kees 
 
-<naam> heeft pannenkoeken gegeten! 
+    De kat van <naam> heeft een muis gevangen. 
 
-naam = Kees 
+    naam = Bas 
+    tijd = nacht 
 
-De kat van <naam> heeft een muis gevangen. 
-
-naam = Bas 
-
-tijd = nacht 
-
-De parkiet van <naam> heeft hem de hele <tijd> wakker gehouden. 
-
-
-
-
-
+    De parkiet van <naam> heeft hem de hele <tijd> wakker gehouden. 
 
 
 
@@ -177,15 +141,11 @@ De parkiet van <naam> heeft hem de hele <tijd> wakker gehouden.
 
 Print bij deze opdracht de komende drie woorden in alle volgordes die er maar zijn dus bijvoorbeeld: ‘Niezen Kikkers Blij’ of 'Knikkers Niezen Blij'. Hint, er zijn 6 verschillende volgordes.
 
-speelgoed = "knikkers" 
+    speelgoed = "knikkers" 
+    gevoel = "blij" 
+    werkwoord = "niezen" 
+    print(speelgoed + gevoel + werkwoord) 
 
-gevoel = "blij" 
-
-werkwoord = "niezen" 
-
-print(speelgoed + gevoel + werkwoord) 
-
-\# Ga Verder
 
 ### Opdracht 6
 
@@ -197,15 +157,13 @@ Gebruik een **variabele** voor de naam van de hoofdpersoon zodat je makkelijk de
 
 **Code die hier bij hoort:** 
 
-naam = "Henk" 
+    naam = "Henk" 
+    print(naam + " is een blije jongen.") 
+    \# denk aan de extra spatie! 
 
-print(naam + " is een blije jongen.") 
+    print("Hij gaat op de fiets naar school.") print("Als " + naam + " op school is gaat hij vrolijk naar de les.") 
 
-\# denk aan de extra spatie! 
-
-print("Hij gaat op de fiets naar school.") print("Als " + naam + " op school is gaat hij vrolijk naar de les.") 
-
-print("Einde!")
+    print("Einde!")
 
 
 ### Foutmeldingen (errors)
