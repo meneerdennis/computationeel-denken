@@ -1,6 +1,6 @@
 
 # Computationeel denken: Python
-
+ok
 # **Les 1: Print & variabelen**
 
 ### De print functie
