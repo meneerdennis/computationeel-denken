@@ -4,7 +4,8 @@ De print functie
 
 Met Python is het mogelijk om tekst en getallen op het scherm te tonen. Dat doe je met de functie print(). Deze functie "print" gewoon de informatie die je wilt op het scherm.
 
-print ("Dit komt dus op het scherm terecht.")
+
+print ("Dit komt dus op het scherm terecht.") 
 print ("We gaan nu een paar sommetjes doen:")
 print (230-21)
 print (78-2+6)
