@@ -1,5 +1,5 @@
 
-Computationeel denken: Python
+# Computationeel denken: Python
 
 # **Les 1: Print & variabelen**
 
@@ -412,9 +412,7 @@ Maak de volgende figuren:
 
 *Let er wel op dat de draairichting altijd vanuit de huidige positie van de turtle wordt bepaald. In het onderstaande plaatje kijkt de turtle eerst naar beneden. Als je dan* turtle.right(90) *uitvoert dan draait de turtle dus 90 graden naar rechts toe!*** 
 
-![Afbeelding met ontwerp
-
-Beschrijving automatisch gegenereerd met lage betrouwbaarheid](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.012.png)
+![](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.012.png)
 
 Om het draaien duidelijk te maken hieronder nog een programma dat je in Python kan uitvoeren:
 
@@ -697,5 +695,3 @@ getal1 = getal1 - 3
 print (getal1)
 ### Opgave 2
 Schrijf een programma waarmee je twee variabelen instelt met een beginwaarde. De eerste met waarde 3 en de tweede variabele met waarde 8. De namen van de variabelen mag je zelf weten. Tel de twee getallen bij elkaar op en sla het resultaat op in een nieuwe variabele. Print uiteindelijk het resultaat naar het scherm.
-
-
