@@ -73,7 +73,7 @@ We kunnen nu ook een vierde emmer genaamd d in het leven roepen. In die variabel
 
 ![Afbeelding met schets, tekening, tekenfilm, illustratie
 
-Automatisch gegenereerde beschrijving](Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.004.png)
+Automatisch gegenereerde beschrijving](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.004.png)
 
 a = 20
 
