@@ -395,11 +395,7 @@ Als je turtle.right(90) ingeeft, dan draait de turtle 90 graden naar rechts. En 
 
 Maak de volgende figuren:
 
-![Afbeelding met Rechthoek, plein, lijn, ontwerp
-
-Automatisch gegenereerde beschrijving](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.009.png)![Afbeelding met lijn, diagram, ontwerp
-
-Automatisch gegenereerde beschrijving](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.010.png)
+![](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.009.png)![](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.010.png)
 
 
 
@@ -410,9 +406,7 @@ Automatisch gegenereerde beschrijving](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-
 
 ​​
 
-![Afbeelding met lijn, schets, diagram, ontwerp
-
-Automatisch gegenereerde beschrijving](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.011.png)
+![](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.011.png)
 
 *Tip voor draaien*
 
@@ -452,13 +446,9 @@ turtle.forward(90)
 ### Opdracht 5
 Maak voor de figuren hieronder een programma waarbij de turtle dat figuurtje tekent. De afmetingen mag je zelf bepalen.** 
 
-![Afbeelding met Rechthoek, schermopname, wit, lijn
+![](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.013.png)
 
-Automatisch gegenereerde beschrijving](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.013.png)
-
-![Afbeelding met Rechthoek, schets, lijn, ontwerp
-
-Automatisch gegenereerde beschrijving](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.014.png)
+![](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.014.png)
 
 
 ### Opdracht 6
@@ -467,17 +457,13 @@ Maak ook vier programma's waarmee je de volgende figuren kan tekenen.
 ![](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.015.png)
 
 
-![Afbeelding met wit, ontwerp
-
-Automatisch gegenereerde beschrijving](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.016.png)
+![](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.016.png)
 
 ### Opdracht 7 
 
 Schrijf een programma waarmee je het onderstaande kan tekenen:
 
-![Afbeelding met diagram, lijn, Rechthoek, Plan
-
-Automatisch gegenereerde beschrijving](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.017.png)
+![](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.017.png)
 
 Je kunt het bovenstaande figuurtje tekenen door slechts gebruik te maken van de functie turtle.forward en turtle.right. Zorg ervoor dat je hetzelfde figuurtje maakt, maar dan alleen door uitsluitend gebruik te maken van deze twee functies.
 
@@ -485,19 +471,13 @@ Je kunt het bovenstaande figuurtje tekenen door slechts gebruik te maken van de 
 
 Teken volgende figuur:
 
-![Afbeelding met diagram, lijn, wit, Rechthoek
-
-Automatisch gegenereerde beschrijving](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.018.png)
+![](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.018.png)
 ### Opdracht 9 - Huis 
 Teken nu een huis met de turtle. Je huis zou er zo uit kunnen zien (de lengte van de zijden mag je zelf bepalen):** 
 
-![Afbeelding met lijn, driehoek, Rechthoek, wit
+![](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.019.png)
 
-Automatisch gegenereerde beschrijving](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.019.png)
-
-![Afbeelding met lijn, origami
-
-Automatisch gegenereerde beschrijving](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.020.png)
+![](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.020.png)
 
 
 
