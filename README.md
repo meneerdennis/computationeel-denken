@@ -59,9 +59,7 @@ of:
 print(a+b)
 
 
-![Afbeelding met schets, tekenfilm, tekening, container
-
-Automatisch gegenereerde beschrijving](Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.003.png)
+![](afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.003.png)
 
 Je ziet dus dat er nu drie emmers zijn. Elke emmer heeft een naam/label en een inhoud. In het begin zijn alle emmers leeg. Maar na de drie regels van hierboven verandert de zaak: 
 
@@ -376,9 +374,7 @@ Als je wilt tekenen met turtle, dan moet je dat op de allereerste regel van je p
 
 Met de opdracht turtle.forward(100), gaat de turtle dan 100 stappen vooruit. Zie het plaatje hieronder.** 
 
-![Afbeelding met ontwerp
-
-Beschrijving automatisch gegenereerd met gemiddelde betrouwbaarheid](Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.006.png)
+![](afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.006.png)
 
 ​En met de opdracht turtle.backward(100), gaat de turtle 100 stappen achteruit.
 
@@ -386,17 +382,13 @@ Beschrijving automatisch gegenereerd met gemiddelde betrouwbaarheid](Aspose.Word
 
 De turtle heeft altijd een bepaalde richting. En als hij beweegt, dan beweegt hij ook die richting op. Je kunt echter de richting veranderen door het commando turtle.right() of turtle.left() in te geven.** 
 
-![Afbeelding met diagram
-
-Automatisch gegenereerde beschrijving](Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.007.png)
+![](afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.007.png)
 
 ​
 
 Als je turtle.right(90) ingeeft, dan draait de turtle 90 graden naar rechts. En als je turtle.right(180) ingeeft, dan draait hij zich om. 
 
-![Afbeelding met diagram
-
-Automatisch gegenereerde beschrijving](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.008.png)
+![](afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.008.png)
 
 ​
 ### Opdracht 2
