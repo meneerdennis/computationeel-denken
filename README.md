@@ -71,9 +71,7 @@ Je ziet dus dat er nu drie emmers zijn. Elke emmer heeft een naam/label en een i
 
 We kunnen nu ook een vierde emmer genaamd d in het leven roepen. In die variabele kunnen we het verschil (min) tussen a en b berekenen en bewaren. Dat gaat zo:
 
-![Afbeelding met schets, tekening, tekenfilm, illustratie
-
-Automatisch gegenereerde beschrijving](afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.004.png)
+![](afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.004.png)
 
 a = 20
 
