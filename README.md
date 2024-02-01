@@ -15,11 +15,11 @@
 
 Met Python is het mogelijk om tekst en getallen op het scherm te tonen. Dat doe je met de functie print(). Deze functie "print" gewoon de informatie die je wilt op het scherm.
 
-    print ("Dit komt dus op het scherm terecht.")
-    print ("We gaan nu een paar sommetjes doen:")
-    print (230-21)
-    print (78-2+6)
-    print (78-2*6)
+    print("Dit komt dus op het scherm terecht.")
+    print("We gaan nu een paar sommetjes doen:")
+    print(230-21)
+    print(78-2+6)
+    print(78-2*6)
 
 Zoals je ziet kun je ook berekeningen tussen de haakjes van de print()-functie zetten. Let er wel op dat de voorrangsregels van de wiskunde ook gelden voor programmeertalen: de * en de / gaan dus vóór de + en de -.
 
@@ -84,10 +84,10 @@ We halen dus het getal 20 uit emmer a en we halen het getal 15 uit emmer b. Het 
 
 Uiteindelijk zouden we ook de inhoud van de variabelen op het scherm kunnen tonen. Dat doen we natuurlijk met de functie print. Dit gaat zo:
 
-    print (a)
-    print (b)
-    print (c)
-    print (d)	
+    print(a)
+    print(b)
+    print(c)
+    print(d)	
 
 
 ### Opdracht 3
@@ -105,23 +105,24 @@ Stop de antwoorden in drie verschillende variabelen. Tel de drie antwoorden bij 
 De naam van een variabele kan je altijd zelf bepalen. Dus als je berekeningen wilt doen met je favoriete getal, kan je deze in een variabele stoppen met als naam bijvoorbeeld favoriete_getal. Dit is handig omdat je dan makkelijk kan bijhouden wat er in de variabelen zit. Noem je variabelen dus altijd op een logische manier! Kijk maar naar het volgende voorbeeld:
 
     favoriete_getal = 7
-    print (favoriete_getal + 1)
-    print (favoriete_getal)
-    print (favoriete_getal * 2)
+    print(favoriete_getal + 1)
+    print(favoriete_getal)
+    print(favoriete_getal * 2)
     favoriete_getal = 4 + 5
-    print (favoriete_getal)
-    print ("favoriete_getal")
+    print(favoriete_getal)
+    print("favoriete_getal")
 
 Zoals je kan zien zijn de eerste drie antwoorden van het programma (dit worden ook wel **outputs** genoemd) gewoon een wiskundesom die de inhoud van onze variabelen gebruikt. Daarna wordt er een verandering gemaakt in de variabele favoriete_getal. Er wordt een andere waarde aan de variabele gegeven, namelijk 4 + 5, dus 9. Je kan na het toewijzen van de waarde van een variabelen deze dus altijd ook nog later veranderen.
 
 Bij de laatste output zien we iets vreemd. Doordat er " " om favoriete_getal stonden, wordt deze gezien als wat? Ja! Een **string**! Het is dus heel erg belangrijk om in je achterhoofd te houden of je iets wilt printen als een **string** of als een **variabele**. Als je de " " namelijk vergeet, gaat het programma zoeken naar een variabele met die naam. En als er dus geen variabele toegewezen is kan je hierdoor een foutmelding (oftewel een *error*) krijgen.
+
 ### Strings aan elkaar plakken (concatenation)
 
 Bij de vorige opdrachten heb je steeds een aparte string geprint op het scherm. Nu bestaat er ook iets als string concatenation, waarin je twee strings samen kan voegen. Concatenation is een Engels woord voor “aaneenschakeling”, en in python is dit ontzettend makkelijk: Je plakt twee string aan elkaar vast met een “+” of een “,”! Probeer maar:
 
     leerling_naam = "Joop"
-    print ("Hallo, dit is deel een!" , "En dit is deel twee!")
-    print ("Jouw naam is " + leerling_naam)
+    print("Hallo, dit is deel een!" , "En dit is deel twee!")
+    print("Jouw naam is " + leerling_naam)
 
     kledingstuk = "broek"
     print("Wat heb je een mooie " + kledingstuk, "aan.")
@@ -180,7 +181,7 @@ Een ‘error’ is een foutmelding. Op errors gaan we later dieper in, maar voor
 
 
     getel = 4 
-    print (getal + 1)
+    print(getal + 1)
 
 iets kan krijgen als:
 
@@ -198,14 +199,14 @@ Een error kun je bijvoorbeeld krijgen als:
 
 Het kan ook zijn dat je de toewijzing andersom doet, zoals: 4 = x
 
-Dan krijg je een error die eruit ziet als:** 
+Dan krijg je een error die eruit ziet als: 
 
     Traceback (most recent call last):
     In line 1 of the code you submitted: 4 = x ^ SyntaxError: can't assign to literal
 
 Deze foutmelding houdt dan dus in dat je altijd eerst je variabelenaam moet noemen, en dan pas de inhoud ervan moet geven. In de geval verbeter je het dus door er van te maken: 
 
-    x = 4** 
+    x = 4 
 
 In de toekomst gaan we dieper in op errors en hoe je problemen kunt oplossen. Maar het is handig dat je hier alvast wat over hebt gelezen, in het geval dat je straks wat schrijft en opeens een error krijgt. Ze zien er altijd heel ingewikkeld uit, maar als je hier eenmaal handig in wordt valt het best mee! Neem gewoon rustig je tijd, en bekijk wat er staat en neem je code dan nog even door.
 
@@ -229,7 +230,7 @@ Run de volgende codes, en los de errors op:
     chinchillas = 1
 
     aantal_dieren = katten + honden + dolfijnen + cavias + hamsters + chinchillas
-    print (aantal_dieren)
+    print(aantal_dieren)
 
     # Hoe vaak moet nicky heen en weer lopen om drinken voor haarzelf en al haar
     # vriendinnen te halen als zij maar drie flesjes per keer mee kan nemen?
@@ -239,7 +240,7 @@ Run de volgende codes, en los de errors op:
     nicky + vriendinnen = totaal_hoeveelheid_mensen
     3 = flessen_per_keer
     totaal_hoeveelheid_mensen / flessen_per_keer = hoeveel_keer_lopen
-    print (hoeveel_keer_lopen)
+    print(hoeveel_keer_lopen)
 
     peren = "appels"
     appels = "peren"
@@ -247,7 +248,7 @@ Run de volgende codes, en los de errors op:
     kaatst_kan_hem = " met "
     terug_verwachten = " vergelijken."
 
-    print (wie_de + peren + kaatst_kan_hem + appels  terug_verwachten)
+    print(wie_de + peren + kaatst_kan_hem + appels + terug_verwachten)
 
 
 # **Les 2: Je eerste tekening**
@@ -416,8 +417,8 @@ Bekijk eens het onderstaande programma:
     getal1 = input("Geef een getal")
     getal2 = input("Geef nog een getal")
     som = getal1 + getal2
-    print ("De som van getal1 en getal2 is")
-    print (som)
+    print("De som van getal1 en getal2 is")
+    print(som)
 
 Je zou denken dat je hiermee een optelprogramma hebt gemaakt, maar dat valt vies tegen! Probeer maar eens een paar getallen op te tellen en kijk goed naar het resultaat. Probeer het pogramma uit.
 
@@ -430,8 +431,8 @@ De input-functie is hier van belang. Die zegt altijd dat de invoer van de gebrui
     getal1 = int(input("Geef een getal"))
     getal2 = int(input("Geef nog een getal"))
     som = getal1 + getal2
-    print ("De som van getal1 en getal2 is")
-    print (som)
+    print("De som van getal1 en getal2 is")
+    print(som)
 
 Let vooral op het gebruik van de functie int()! int is een afkorting voor integer. Het is de Engelstalige benaming voor een geheel getal. Je zegt hier eigenlijk: Hetgeen dat de gebruiker invoert met de input functie moet worden opgevat als een getal.
 
@@ -451,9 +452,9 @@ In het Engels gebruik je een '.' (punt) in plaats van een '.' (komma). Daarom sc
 
 Deze laatste twee datatypes zijn heel erg belangrijk aangezien je er complexe berekeningen mee kan doen. Eerder deze les heb je al meerdere berekeningen gedaan met gehele getallen. Als je daarentegen met decimale getallen wilt werken heb je dus de floats nodig. Een paar voorbeelden van floats zijn:
 
-    print (3.5 / 1.5)
-    print (2.4 * 1.23)
-    print (13 + 223.4)
+    print(3.5 / 1.5)
+    print(2.4 * 1.23)
+    print(13 + 223.4)
 
 Hierboven zie je dat er verscheidene berekeningen gedaan worden met floats. Als je met de input() functie werkt, wordt het belangrijk om hetzelfde trucje toe te kunnen passen als we eerder met de integers hebben gedaan. Als je namelijk niet expliciet het type informatie geeft aan de input() functie, gaat dit altijd als string behandeld worden. Maar als je het type int aan een float mee geeft krijg je hier een error van. Geef bij het volgende voorbeeld maar een float als input mee en kijk wat er gebeurt!
 
@@ -475,7 +476,7 @@ In het engels werken mensen met punten i.p.v. komma's.
 
     x = int(input("Geef mij een getal"))
     y = int(input("Geef mij nog een getal!"))
-    print (x+y)
+    print(x+y)
 
 Om dit op te lossen kan je dus simpelweg in plaats van de functie int() de float() functie gebruiken. Als je dit doet, wordt de input behandeld als float en kan je hier dus weer berekeningen mee maken met getallen achter de komma.
 
@@ -483,7 +484,7 @@ Om dit op te lossen kan je dus simpelweg in plaats van de functie int() de float
 
     x = float(input("Geef mij een getal"))
     y = float(input("Geef mij nog een getal!"))
-    print (x+y)
+    print(x+y)
 
 Het bovenstaande voorbeeld laat dus heel goed het verschil tussen float en int waardes zien. Bij berekeningen moet je hier dus goed op letten hoe je het in gaat voeren en wat voor antwoord je wilt krijgen. Verder kan het natuurlijk ook zo zijn dat je wilt dat een int of float als string behandeld wordt. Dit is namelijk nodig als je een variabele die een int of float bevat wilt printen. Een voorbeeld hiervan is het volgende:
 
@@ -493,12 +494,12 @@ en je duidelijk kan maken wat wat is.
 
     ​lievelings_getal = 5
     mooiste_float = 4.3
-    print ("Mijn lievelings getal is " + str(lievelings_getal))
-    print ("Maar de mooiste float is " + str(mooiste_float) + "!")
-    print ("Zo zie je dat je eerst een int of float om moet zetten naar string!")
-    print ("Anders krijg je de volgende error:")
-    print ("")
-    print ("als ik mijn lievelings getal zo print krijg je een error: " + lievelings_getal)
+    print("Mijn lievelings getal is " + str(lievelings_getal))
+    print("Maar de mooiste float is " + str(mooiste_float) + "!")
+    print("Zo zie je dat je eerst een int of float om moet zetten naar string!")
+    print("Anders krijg je de volgende error:")
+    print("")
+    print("als ik mijn lievelings getal zo print krijg je een error: " + lievelings_getal)
 
 ### Opgave 8
 Bedenk wat de types zijn van de volgende tien dingen. Kies uit integer, float of string.
@@ -513,9 +514,9 @@ Schrijf een programma dat 2 of meer inputs vraagt, maak er een berekening mee en
 Als je even niet meer weet wat voor type iets heeft, bestaat er een functie die je hiervoor kan gebruiken. Als je namelijk type(variabele) gebruikt, zegt de computer wat het type is.
 
     x = 8
-    print (type(x))
-    print (type("hallo"))
-    print (type(4.5))
+    print(type(x))
+    print(type("hallo"))
+    print(type(4.5))
 
 ### Rekenen met variabelen
 Nu we al die lastige informatie hebben verwerkt gaan we even weer verder met berekeningen met variabelen en deze straks combineren met strings!
@@ -531,7 +532,7 @@ Wat wordt met de onderstaande code op het scherm geprint? Bedenk het eerst voor 
     getal4 = getal1 - getal2
     getal1 = getal4 - getal3
     getal1 = getal1 - 3
-    print (getal1)
+    print(getal1)
 
 ### Opgave 2
 
