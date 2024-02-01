@@ -1,6 +1,14 @@
+# Inhoud
+[Les 1: Print & Variabelen](#Les-1-Print--variabelen)
+
+[Les 2: Je eerste tekening](#Les-2-Je-eerste-tekening)
+
+[Les 3: Input en datatypes ](#Les-3-Input-en-datatypes)
+
+
 
 # Computationeel denken: Python
-test
+
 # **Les 1: Print & variabelen**
 
 ### De print functie
