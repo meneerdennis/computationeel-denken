@@ -1,13 +1,5 @@
 
-
-
-
-![](Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.001.jpeg)![](Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.002.png)<a name="page1"></a>**I**
-
-HOOFDSTUK 4
-
 Computationeel denken: Python
-
 
 # **Les 1: Print & variabelen**
 
