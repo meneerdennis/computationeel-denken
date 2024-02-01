@@ -171,14 +171,12 @@ Gebruik een **variabele** voor de naam van de hoofdpersoon zodat je makkelijk de
 Een ‘error’ is een foutmelding. Op errors gaan we later dieper in, maar voor nu is het handig om te weten dat je bij bijvoorbeeld de volgende code:
 
 
-
-getel = 4 
-
-print (getal + 1)
+    getel = 4 
+    print (getal + 1)
 
 iets kan krijgen als:
 
-Traceback (most recent call last): File "<stdin>", line 2, in <module>NameError: name 'getal' is not defined
+    Traceback (most recent call last): File "<stdin>", line 2, in <module>NameError: name 'getal' is not defined
 
 Als je kijkt naar line 2 (regel 2) dan wordt daar een variabele met de naam **getal** gebruikt, terwijl deze dus niet bestaat of geen waarde toegewezen heeft gekregen. Je ziet dat er een spelfout is gemaakt in regel 1. Er staat **getel** in plaats van **getal**. Als je dat verandert verdwijnt de foutmelding.
 
@@ -194,13 +192,12 @@ Het kan ook zijn dat je de toewijzing andersom doet, zoals: 4 = x
 
 Dan krijg je een error die eruit ziet als:** 
 
-Traceback (most recent call last):
-
-In line 1 of the code you submitted: 4 = x ^ SyntaxError: can't assign to literal
+    Traceback (most recent call last):
+    In line 1 of the code you submitted: 4 = x ^ SyntaxError: can't assign to literal
 
 Deze foutmelding houdt dan dus in dat je altijd eerst je variabelenaam moet noemen, en dan pas de inhoud ervan moet geven. In de geval verbeter je het dus door er van te maken: 
 
-x = 4** 
+    x = 4** 
 
 In de toekomst gaan we dieper in op errors en hoe je problemen kunt oplossen. Maar het is handig dat je hier alvast wat over hebt gelezen, in het geval dat je straks wat schrijft en opeens een error krijgt. Ze zien er altijd heel ingewikkeld uit, maar als je hier eenmaal handig in wordt valt het best mee! Neem gewoon rustig je tijd, en bekijk wat er staat en neem je code dan nog even door.
 
@@ -208,83 +205,41 @@ In de toekomst gaan we dieper in op errors en hoe je problemen kunt oplossen. Ma
 
 Run de volgende codes, en los de errors op:
 
-kosten\_lolly = 30
+    kosten\_lolly = 30
+    kosten\_appel = 60
+    kosten\_banaan = 100
+    geld\_op\_zak = 230
 
-kosten\_appel = 60
+    geld\_over = geld\_op\_zak - kosten\_appel - kosten\_banaan - kosten\_lolly
 
-kosten\_banaan = 100
+    print geld\_over
 
-​
+    katten = 4
+    honden = 8
+    dolfijnen = 2
+    cavias = 3
+    chinchillas = 1
 
-geld\_op\_zak = 230
+    aantal\_dieren = katten + honden + dolfijnen + cavias + hamsters + chinchillas
+    print (aantal\_dieren)
 
-​
+    \# Hoe vaak moet nicky heen en weer lopen om drinken voor haarzelf en al haar
+    \# vriendinnen te halen als zij maar drie flesjes per keer mee kan nemen?
 
-geld\_over = geld\_op\_zak - kosten\_appel - kosten\_banaan - kosten\_lolly
+    1 = nicky
+    14 = vriendinnen
+    nicky + vriendinnen = totaal\_hoeveelheid\_mensen
+    3 = flessen\_per\_keer
+    totaal\_hoeveelheid\_mensen / flessen\_per\_keer = hoeveel\_keer\_lopen
+    print (hoeveel\_keer\_lopen)
 
-​
+    peren = "appels"
+    appels = "peren"
+    wie\_de = "Je moet geen "
+    kaatst\_kan\_hem = " met "
+    terug\_verwachten = " vergelijken."
 
-print geld\_over
-
-katten = 4
-
-honden = 8
-
-dolfijnen = 2
-
-cavias = 3
-
-chinchillas = 1
-
-​
-
-aantal\_dieren = katten + honden + dolfijnen + cavias + hamsters + chinchillas
-
-​
-
-print (aantal\_dieren)
-
-\# Hoe vaak moet nicky heen en weer lopen om drinken voor haarzelf en al haar
-
-\# vriendinnen te halen als zij maar drie flesjes per keer mee kan nemen?
-
-​
-
-1 = nicky
-
-14 = vriendinnen
-
-nicky + vriendinnen = totaal\_hoeveelheid\_mensen
-
-​
-
-3 = flessen\_per\_keer
-
-​
-
-totaal\_hoeveelheid\_mensen / flessen\_per\_keer = hoeveel\_keer\_lopen
-
-​
-
-print (hoeveel\_keer\_lopen)
-
-peren = "appels"
-
-appels = "peren"
-
-wie\_de = "Je moet geen "
-
-kaatst\_kan\_hem = " met "
-
-terug\_verwachten = " vergelijken."
-
-​
-
-print (wie\_de + peren + kaatst\_kan\_hem + appels  terug\_verwachten)
-
-​
-
-​
+    print (wie\_de + peren + kaatst\_kan\_hem + appels  terug\_verwachten)
 
 
 # **Les 2: Je eerste tekening**
@@ -293,29 +248,16 @@ print (wie\_de + peren + kaatst\_kan\_hem + appels  terug\_verwachten)
 ### Tekenen in Python
 Ons eerste programma ziet er als volgt uit:
 
-import turtle
-
-​
-
-turtle.shape("turtle")     
-
-​
-
-turtle.forward(100)
-
-turtle.right(90)
-
-turtle.forward(100)
-
-turtle.right(90)
-
-turtle.forward(100)
-
-turtle.right(90)
-
-turtle.forward(100)
-
-turtle.right(90)
+    import turtle
+    turtle.shape("turtle")     
+    turtle.forward(100)
+    turtle.right(90)
+    turtle.forward(100)
+    turtle.right(90)
+    turtle.forward(100)
+    turtle.right(90)
+    turtle.forward(100)
+    turtle.right(90)
 
 ### Opdracht 1
 
@@ -324,7 +266,6 @@ turtle.right(90)
 ![](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.005.png)
 
 ​
-
 Als je wilt tekenen met turtle, dan moet je dat op de allereerste regel van je programma aangeven. Dit doe je door de regel import turtle op te schrijven. De turtle kijkt altijd in het begin naar rechts.
 
 Met de opdracht turtle.forward(100), gaat de turtle dan 100 stappen vooruit. Zie het plaatje hieronder.** 
@@ -340,7 +281,6 @@ De turtle heeft altijd een bepaalde richting. En als hij beweegt, dan beweegt hi
 ![](afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.007.png)
 
 ​
-
 Als je turtle.right(90) ingeeft, dan draait de turtle 90 graden naar rechts. En als je turtle.right(180) ingeeft, dan draait hij zich om. 
 
 ![](afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.008.png)
@@ -353,14 +293,6 @@ Maak de volgende figuren:
 ![](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.009.png)![](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.010.png)
 
 
-
-
-
-
-
-
-​​
-
 ![](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.011.png)
 
 *Tip voor draaien*
@@ -371,27 +303,15 @@ Maak de volgende figuren:
 
 Om het draaien duidelijk te maken hieronder nog een programma dat je in Python kan uitvoeren:
 
-import turtle
-
-​
-
-turtle.shape("turtle")
-
-​
-
-turtle.forward(50)
-
-turtle.right(45)
-
-turtle.forward(50)
-
-turtle.right(45)
-
-turtle.forward(50)
-
-turtle.right(90)
-
-turtle.forward(90)
+    import turtle
+    turtle.shape("turtle")
+    turtle.forward(50)
+    turtle.right(45)
+    turtle.forward(50)
+    turtle.right(45)
+    turtle.forward(50)
+    turtle.right(90)
+    turtle.forward(90)
 
 **​**
 **
@@ -434,39 +354,23 @@ Teken nu een huis met de turtle. Je huis zou er zo uit kunnen zien (de lengte va
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 # **Les 3: Input en datatypes**
 
 ### **Interactieve programma's met de input functie**
 
 Met de print functie kun je gegevens op het scherm printen. Maar wat als je nou wilt dat de gebruiker iets kan invoeren? Heb je daar ook iets voor? Jazeker! De input()-functie.
 
-naam = input("Hoe heet je?")
-
-print("Hallo! Je naam is als volgt: ")
-
-print(**naam**)
+    naam = input("Hoe heet je?")
+    print("Hallo! Je naam is als volgt: ")
+    print(**naam**)
 
 Je ziet dat je programma wacht op invoer. Als je iets intypt en eindigt met enter dan gaat het programma verder. Op deze manier kan je dus een programma schrijven dat reageert op de antwoorden van zijn gebruiker!*: Je moet het resultaat van de input()-functie wel eerst in een variabele zetten, zodat dit later gebruikt kan worden.*
 
 De regels tekst (strings) worden nu onder elkaar geprint maar je kunt ook string aan elkaar plakken met + (concatenation):
 
-naam = input("Hoe heet je?")
-
-woonplaats = input("Waar woon je?")
-
-print("Hallo " + naam + ", je woont in " + woonplaats + ".")
+    naam = input("Hoe heet je?")
+    woonplaats = input("Waar woon je?")
+    print("Hallo " + naam + ", je woont in " + woonplaats + ".")
 
 ### Opgave 1:
 
@@ -489,21 +393,23 @@ Henk is een blije jongen. Hij gaat op de fiets naar school. Als Henk op school i
 
 Code die hier bij hoort:
 
-naam = input("Hoe heet je?") print(naam + " is een blije jongen.") # denk aan de extra spatie! print("Hij gaat op de fiets naar school.") print("Als " + naam + " op school is gaat hij vrolijk naar de les.") print("Einde!")
+    naam = input("Hoe heet je?") 
+    print(naam + " is een blije jongen.") 
+    # denk aan de extra spatie! print("Hij gaat op de fiets naar school.") 
+    print("Als " + naam + " op school is gaat hij vrolijk naar de les.") 
+    print("Einde!")
+    
 ### Opgave 4
 Schrijf een programma dat om drie woorden vraagt en vervolgens die drie woorden in alle zes mogelijke volgordes weer naar het scherm schrijft. Je moet zes keer een print commando geven!
+
 ### Van strings naar getallen
 Bekijk eens het onderstaande programma:
 
-getal1 = input("Geef een getal")
-
-getal2 = input("Geef nog een getal")
-
-som = getal1 + getal2
-
-print ("De som van getal1 en getal2 is")
-
-print (som)
+    getal1 = input("Geef een getal")
+    getal2 = input("Geef nog een getal")
+    som = getal1 + getal2
+    print ("De som van getal1 en getal2 is")
+    print (som)
 
 Je zou denken dat je hiermee een optelprogramma hebt gemaakt, maar dat valt vies tegen! Probeer maar eens een paar getallen op te tellen en kijk goed naar het resultaat. Probeer het pogramma uit.
 
@@ -513,23 +419,23 @@ Python heeft de twee 'getallen' aan elkaar vastgeplakt. Dit doet hij, omdat hij 
 
 De input-functie is hier van belang. Die zegt altijd dat de invoer van de gebruiker als tekst moet worden beschouwd. Wij kunnen expliciet aangeven dat de invoer toch moet worden opgevat als een echt getal. Dit doen we door de functie int() te gebruiken. Dit ziet er als volgt uit:
 
-getal1 = int(input("Geef een getal"))
-
-getal2 = int(input("Geef nog een getal"))
-
-som = getal1 + getal2
-
-print ("De som van getal1 en getal2 is")
-
-print (som)
+    getal1 = int(input("Geef een getal"))
+    getal2 = int(input("Geef nog een getal"))
+    som = getal1 + getal2
+    print ("De som van getal1 en getal2 is")
+    print (som)
 
 Let vooral op het gebruik van de functie int()! int is een afkorting voor integer. Het is de Engelstalige benaming voor een geheel getal. Je zegt hier eigenlijk: Hetgeen dat de gebruiker invoert met de input functie moet worden opgevat als een getal.
+
 ### Opgave 5
 Schrijf een programma dat vraagt om vier getallen. Tel de eerste twee getallen bij elkaar op, deel dat dan door het derde getal, en vermenigvuldig het met het vierde getal. Print vervolgens het antwoord op het scherm.
+
 ### Opgave 6
 Schrijf een programma dat de gebruiker vraagt om vijf getallen en schrijf daarna het gemiddelde van die vijf getallen naar het scherm (niet afronden).
 ### Opgave 7
+
 Schrijf een programma dat de gebruiker vraagt om het huidige jaartal en om het jaar waarin hij geboren is. Reken uit hoe oud de gebruiker is aan het eind van het huidige jaar (in hele jaren) en schrijf het antwoord naar het scherm.
+
 ### Types en type-casting
 Inmiddels ben je al bekend met twee soorten informatietypes (datatypes), namelijk strings en int’s. Strings zijn een verzameling karakters die als het ware als een zin gebruikt worden door de computer. Een string is een type (soort) informatie waarvan de computer alles tussen de “” als een geheel behandeld. En net zoals dat een string een type informatie is, zijn er ook nog andere types. Een van de belangrijkste hiervan ken je nu ook al. De int wat dus staat voor integer, was een heel getal. Maar wat nou als je met decimale getallen wilt werken (getallen met een komma erin)? Hiervoor bestaat er nog een ander type informatie. Namelijk de float wat een getal is met nog cijfers achter de komma.
 
@@ -537,11 +443,9 @@ In het Engels gebruik je een '.' (punt) in plaats van een '.' (komma). Daarom sc
 
 Deze laatste twee datatypes zijn heel erg belangrijk aangezien je er complexe berekeningen mee kan doen. Eerder deze les heb je al meerdere berekeningen gedaan met gehele getallen. Als je daarentegen met decimale getallen wilt werken heb je dus de floats nodig. Een paar voorbeelden van floats zijn:
 
-print (3.5 / 1.5)
-
-print (2.4 \* 1.23)
-
-print (13 + 223.4)
+    print (3.5 / 1.5)
+    print (2.4 \* 1.23)
+    print (13 + 223.4)
 
 Hierboven zie je dat er verscheidene berekeningen gedaan worden met floats. Als je met de input() functie werkt, wordt het belangrijk om hetzelfde trucje toe te kunnen passen als we eerder met de integers hebben gedaan. Als je namelijk niet expliciet het type informatie geeft aan de input() functie, gaat dit altijd als string behandeld worden. Maar als je het type int aan een float mee geeft krijg je hier een error van. Geef bij het volgende voorbeeld maar een float als input mee en kijk wat er gebeurt!
 
@@ -549,13 +453,9 @@ Hierboven zie je dat er verscheidene berekeningen gedaan worden met floats. Als 
 
 \# Dus 3,4 is dan 3.4.
 
-​
-
-x = int(input("Geef mij een getal"))
-
-y = int(input("Geef mij nog een getal!"))
-
-print (x+y)
+    x = int(input("Geef mij een getal"))
+    y = int(input("Geef mij nog een getal!"))
+    print (x+y)
 
 Hierboven zie je dat er verscheidene berekeningen gedaan worden met floats. Als je met de input() functie werkt, wordt het belangrijk om hetzelfde trucje toe te kunnen passen als we eerder met de integers hebben gedaan. Als je namelijk niet expliciet het type informatie geeft aan de input() functie, gaat dit altijd als string behandeld worden. Maar als je het type int aan een float mee geeft krijg je hier een error van. Geef bij het volgende voorbeeld maar een float als input mee en kijk wat er gebeurt!
 
@@ -565,25 +465,17 @@ Hierboven zie je dat er verscheidene berekeningen gedaan worden met floats. Als 
 
 \# Dus 3,4 is dan 3.4.
 
-​
-
-x = int(input("Geef mij een getal"))
-
-y = int(input("Geef mij nog een getal!"))
-
-print (x+y)
+    x = int(input("Geef mij een getal"))
+    y = int(input("Geef mij nog een getal!"))
+    print (x+y)
 
 Om dit op te lossen kan je dus simpelweg in plaats van de functie int() de float() functie gebruiken. Als je dit doet, wordt de input behandeld als float en kan je hier dus weer berekeningen mee maken met getallen achter de komma.
 
 \# Nu wordt de input als float behandeld en kan de berekening wel op deze manier!
 
-​
-
-x = float(input("Geef mij een getal"))
-
-y = float(input("Geef mij nog een getal!"))
-
-print (x+y)
+    x = float(input("Geef mij een getal"))
+    y = float(input("Geef mij nog een getal!"))
+    print (x+y)
 
 Het bovenstaande voorbeeld laat dus heel goed het verschil tussen float en int waardes zien. Bij berekeningen moet je hier dus goed op letten hoe je het in gaat voeren en wat voor antwoord je wilt krijgen. Verder kan het natuurlijk ook zo zijn dat je wilt dat een int of float als string behandeld wordt. Dit is namelijk nodig als je een variabele die een int of float bevat wilt printen. Een voorbeeld hiervan is het volgende:
 
