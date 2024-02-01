@@ -398,7 +398,7 @@ Als je turtle.right(90) ingeeft, dan draait de turtle 90 graden naar rechts. En 
 
 ![Afbeelding met diagram
 
-Automatisch gegenereerde beschrijving](Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.008.png)
+Automatisch gegenereerde beschrijving](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.008.png)
 
 ​
 ### Opdracht 2
@@ -407,9 +407,9 @@ Maak de volgende figuren:
 
 ![Afbeelding met Rechthoek, plein, lijn, ontwerp
 
-Automatisch gegenereerde beschrijving](Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.009.png)![Afbeelding met lijn, diagram, ontwerp
+Automatisch gegenereerde beschrijving](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.009.png)![Afbeelding met lijn, diagram, ontwerp
 
-Automatisch gegenereerde beschrijving](Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.010.png)
+Automatisch gegenereerde beschrijving](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.010.png)
 
 
 
@@ -422,7 +422,7 @@ Automatisch gegenereerde beschrijving](Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432
 
 ![Afbeelding met lijn, schets, diagram, ontwerp
 
-Automatisch gegenereerde beschrijving](Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.011.png)
+Automatisch gegenereerde beschrijving](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.011.png)
 
 *Tip voor draaien*
 
@@ -430,7 +430,7 @@ Automatisch gegenereerde beschrijving](Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432
 
 ![Afbeelding met ontwerp
 
-Beschrijving automatisch gegenereerd met lage betrouwbaarheid](Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.012.png)
+Beschrijving automatisch gegenereerd met lage betrouwbaarheid](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.012.png)
 
 Om het draaien duidelijk te maken hieronder nog een programma dat je in Python kan uitvoeren:
 
@@ -464,22 +464,22 @@ Maak voor de figuren hieronder een programma waarbij de turtle dat figuurtje tek
 
 ![Afbeelding met Rechthoek, schermopname, wit, lijn
 
-Automatisch gegenereerde beschrijving](Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.013.png)
+Automatisch gegenereerde beschrijving](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.013.png)
 
 ![Afbeelding met Rechthoek, schets, lijn, ontwerp
 
-Automatisch gegenereerde beschrijving](Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.014.png)
+Automatisch gegenereerde beschrijving](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.014.png)
 
 
 ### Opdracht 6
 Maak ook vier programma's waarmee je de volgende figuren kan tekenen.
 
-![](Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.015.png)
+![](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.015.png)
 
 
 ![Afbeelding met wit, ontwerp
 
-Automatisch gegenereerde beschrijving](Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.016.png)
+Automatisch gegenereerde beschrijving](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.016.png)
 
 ### Opdracht 7 
 
@@ -487,7 +487,7 @@ Schrijf een programma waarmee je het onderstaande kan tekenen:
 
 ![Afbeelding met diagram, lijn, Rechthoek, Plan
 
-Automatisch gegenereerde beschrijving](Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.017.png)
+Automatisch gegenereerde beschrijving](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.017.png)
 
 Je kunt het bovenstaande figuurtje tekenen door slechts gebruik te maken van de functie turtle.forward en turtle.right. Zorg ervoor dat je hetzelfde figuurtje maakt, maar dan alleen door uitsluitend gebruik te maken van deze twee functies.
 
@@ -497,17 +497,17 @@ Teken volgende figuur:
 
 ![Afbeelding met diagram, lijn, wit, Rechthoek
 
-Automatisch gegenereerde beschrijving](Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.018.png)
+Automatisch gegenereerde beschrijving](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.018.png)
 ### Opdracht 9 - Huis 
 Teken nu een huis met de turtle. Je huis zou er zo uit kunnen zien (de lengte van de zijden mag je zelf bepalen):** 
 
 ![Afbeelding met lijn, driehoek, Rechthoek, wit
 
-Automatisch gegenereerde beschrijving](Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.019.png)
+Automatisch gegenereerde beschrijving](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.019.png)
 
 ![Afbeelding met lijn, origami
 
-Automatisch gegenereerde beschrijving](Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.020.png)
+Automatisch gegenereerde beschrijving](/afbeeldingen/Aspose.Words.51dfa2ac-5f97-41fd-bd03-6432528b2b53.020.png)
 
 
 
@@ -728,6 +728,4 @@ print (getal1)
 ### Opgave 2
 Schrijf een programma waarmee je twee variabelen instelt met een beginwaarde. De eerste met waarde 3 en de tweede variabele met waarde 8. De namen van de variabelen mag je zelf weten. Tel de twee getallen bij elkaar op en sla het resultaat op in een nieuwe variabele. Print uiteindelijk het resultaat naar het scherm.
 
-22
 
-ICT Schakelklas 1	Schooljaar 2023-2024	
