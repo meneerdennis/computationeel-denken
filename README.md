@@ -19,9 +19,9 @@ Met Python is het mogelijk om tekst en getallen op het scherm te tonen. Dat doe 
     print ("We gaan nu een paar sommetjes doen:")
     print (230-21)
     print (78-2+6)
-    print (78-2\*6)
+    print (78-2*6)
 
-Zoals je ziet kun je ook berekeningen tussen de haakjes van de print()-functie zetten. Let er wel op dat de voorrangsregels van de wiskunde ook gelden voor programmeertalen: de \* en de / gaan dus vóór de + en de -.
+Zoals je ziet kun je ook berekeningen tussen de haakjes van de print()-functie zetten. Let er wel op dat de voorrangsregels van de wiskunde ook gelden voor programmeertalen: de * en de / gaan dus vóór de + en de -.
 
 Er bestaat iets als een **string**. Een string is een rij van tekens (karakters). Een teken is een letter (zoals ‘a’, ‘B’), nummer (‘0’, ‘2’), symbool (‘#’, ‘^’, ‘}’), enz. en kan gebruikt worden om allerlei soorten informatie in op te slaan. Vaak is dit dus gewoon een stukje tekst wat iemand op het scherm wil printen.
 
@@ -37,7 +37,7 @@ Schrijf een programma dat met de print() functie de volgende boodschap op het sc
 
 Welkom bij mijn geweldige programma! We gaan allemaal toffe dingen laten zien.
 
-Dit doen we met behulp van de print()-functie. ^\_^
+Dit doen we met behulp van de print()-functie. ^_^
 
 
 ### Variabelen
@@ -74,11 +74,11 @@ We kunnen nu ook een vierde emmer genaamd d in het leven roepen. In die variabel
     c = "hallo"
     d = a - b
 
-    \# d is 20 - 15 is 5
+    # d is 20 - 15 is 5
 
     print(d)
 
-    \# dit zal 5 uitprinten
+    # dit zal 5 uitprinten
 
 We halen dus het getal 20 uit emmer a en we halen het getal 15 uit emmer b. Het verschil wordt vervolgens berekend en het antwoord komt in emmer d te staan.
 
@@ -95,33 +95,33 @@ Uiteindelijk zouden we ook de inhoud van de variabelen op het scherm kunnen tone
 Schrijf een programma waarbij je de volgende berekeningen doet in Python: 
 
     8483937 - 523455 
-    23\.22342 \* 34309483 
+    23.22342 * 34309483 
     218739345 + 3498348
 
 Stop de antwoorden in drie verschillende variabelen. Tel de drie antwoorden bij elkaar op en print het uiteindelijke antwoord.
 
 ### Namen van variabelen
 
-De naam van een variabele kan je altijd zelf bepalen. Dus als je berekeningen wilt doen met je favoriete getal, kan je deze in een variabele stoppen met als naam bijvoorbeeld favoriete\_getal. Dit is handig omdat je dan makkelijk kan bijhouden wat er in de variabelen zit. Noem je variabelen dus altijd op een logische manier! Kijk maar naar het volgende voorbeeld:
+De naam van een variabele kan je altijd zelf bepalen. Dus als je berekeningen wilt doen met je favoriete getal, kan je deze in een variabele stoppen met als naam bijvoorbeeld favoriete_getal. Dit is handig omdat je dan makkelijk kan bijhouden wat er in de variabelen zit. Noem je variabelen dus altijd op een logische manier! Kijk maar naar het volgende voorbeeld:
 
-    favoriete\_getal = 7
-    print (favoriete\_getal + 1)
-    print (favoriete\_getal)
-    print (favoriete\_getal \* 2)
-    favoriete\_getal = 4 + 5
-    print (favoriete\_getal)
-    print ("favoriete\_getal")
+    favoriete_getal = 7
+    print (favoriete_getal + 1)
+    print (favoriete_getal)
+    print (favoriete_getal * 2)
+    favoriete_getal = 4 + 5
+    print (favoriete_getal)
+    print ("favoriete_getal")
 
-Zoals je kan zien zijn de eerste drie antwoorden van het programma (dit worden ook wel **outputs** genoemd) gewoon een wiskundesom die de inhoud van onze variabelen gebruikt. Daarna wordt er een verandering gemaakt in de variabele favoriete\_getal. Er wordt een andere waarde aan de variabele gegeven, namelijk 4 + 5, dus 9. Je kan na het toewijzen van de waarde van een variabelen deze dus altijd ook nog later veranderen.
+Zoals je kan zien zijn de eerste drie antwoorden van het programma (dit worden ook wel **outputs** genoemd) gewoon een wiskundesom die de inhoud van onze variabelen gebruikt. Daarna wordt er een verandering gemaakt in de variabele favoriete_getal. Er wordt een andere waarde aan de variabele gegeven, namelijk 4 + 5, dus 9. Je kan na het toewijzen van de waarde van een variabelen deze dus altijd ook nog later veranderen.
 
-Bij de laatste output zien we iets vreemd. Doordat er " " om favoriete\_getal stonden, wordt deze gezien als wat? Ja! Een **string**! Het is dus heel erg belangrijk om in je achterhoofd te houden of je iets wilt printen als een **string** of als een **variabele**. Als je de " " namelijk vergeet, gaat het programma zoeken naar een variabele met die naam. En als er dus geen variabele toegewezen is kan je hierdoor een foutmelding (oftewel een *error*) krijgen.
+Bij de laatste output zien we iets vreemd. Doordat er " " om favoriete_getal stonden, wordt deze gezien als wat? Ja! Een **string**! Het is dus heel erg belangrijk om in je achterhoofd te houden of je iets wilt printen als een **string** of als een **variabele**. Als je de " " namelijk vergeet, gaat het programma zoeken naar een variabele met die naam. En als er dus geen variabele toegewezen is kan je hierdoor een foutmelding (oftewel een *error*) krijgen.
 ### Strings aan elkaar plakken (concatenation)
 
 Bij de vorige opdrachten heb je steeds een aparte string geprint op het scherm. Nu bestaat er ook iets als string concatenation, waarin je twee strings samen kan voegen. Concatenation is een Engels woord voor “aaneenschakeling”, en in python is dit ontzettend makkelijk: Je plakt twee string aan elkaar vast met een “+” of een “,”! Probeer maar:
 
-    leerling\_naam = "Joop"
+    leerling_naam = "Joop"
     print ("Hallo, dit is deel een!" , "En dit is deel twee!")
-    print ("Jouw naam is " + leerling\_naam)
+    print ("Jouw naam is " + leerling_naam)
 
     kledingstuk = "broek"
     print("Wat heb je een mooie " + kledingstuk, "aan.")
@@ -167,7 +167,7 @@ Gebruik een **variabele** voor de naam van de hoofdpersoon zodat je makkelijk de
 
     naam = "Henk" 
     print(naam + " is een blije jongen.") 
-    \# denk aan de extra spatie! 
+    # denk aan de extra spatie! 
 
     print("Hij gaat op de fiets naar school.") print("Als " + naam + " op school is gaat hij vrolijk naar de les.") 
 
@@ -213,14 +213,14 @@ In de toekomst gaan we dieper in op errors en hoe je problemen kunt oplossen. Ma
 
 Run de volgende codes, en los de errors op:
 
-    kosten\_lolly = 30
-    kosten\_appel = 60
-    kosten\_banaan = 100
-    geld\_op\_zak = 230
+    kosten_lolly = 30
+    kosten_appel = 60
+    kosten_banaan = 100
+    geld_op_zak = 230
 
-    geld\_over = geld\_op\_zak - kosten\_appel - kosten\_banaan - kosten\_lolly
+    geld_over = geld_op_zak - kosten_appel - kosten_banaan - kosten_lolly
 
-    print geld\_over
+    print geld_over
 
     katten = 4
     honden = 8
@@ -228,26 +228,26 @@ Run de volgende codes, en los de errors op:
     cavias = 3
     chinchillas = 1
 
-    aantal\_dieren = katten + honden + dolfijnen + cavias + hamsters + chinchillas
-    print (aantal\_dieren)
+    aantal_dieren = katten + honden + dolfijnen + cavias + hamsters + chinchillas
+    print (aantal_dieren)
 
-    \# Hoe vaak moet nicky heen en weer lopen om drinken voor haarzelf en al haar
-    \# vriendinnen te halen als zij maar drie flesjes per keer mee kan nemen?
+    # Hoe vaak moet nicky heen en weer lopen om drinken voor haarzelf en al haar
+    # vriendinnen te halen als zij maar drie flesjes per keer mee kan nemen?
 
     1 = nicky
     14 = vriendinnen
-    nicky + vriendinnen = totaal\_hoeveelheid\_mensen
-    3 = flessen\_per\_keer
-    totaal\_hoeveelheid\_mensen / flessen\_per\_keer = hoeveel\_keer\_lopen
-    print (hoeveel\_keer\_lopen)
+    nicky + vriendinnen = totaal_hoeveelheid_mensen
+    3 = flessen_per_keer
+    totaal_hoeveelheid_mensen / flessen_per_keer = hoeveel_keer_lopen
+    print (hoeveel_keer_lopen)
 
     peren = "appels"
     appels = "peren"
-    wie\_de = "Je moet geen "
-    kaatst\_kan\_hem = " met "
-    terug\_verwachten = " vergelijken."
+    wie_de = "Je moet geen "
+    kaatst_kan_hem = " met "
+    terug_verwachten = " vergelijken."
 
-    print (wie\_de + peren + kaatst\_kan\_hem + appels  terug\_verwachten)
+    print (wie_de + peren + kaatst_kan_hem + appels  terug_verwachten)
 
 
 # **Les 2: Je eerste tekening**
@@ -452,14 +452,14 @@ In het Engels gebruik je een '.' (punt) in plaats van een '.' (komma). Daarom sc
 Deze laatste twee datatypes zijn heel erg belangrijk aangezien je er complexe berekeningen mee kan doen. Eerder deze les heb je al meerdere berekeningen gedaan met gehele getallen. Als je daarentegen met decimale getallen wilt werken heb je dus de floats nodig. Een paar voorbeelden van floats zijn:
 
     print (3.5 / 1.5)
-    print (2.4 \* 1.23)
+    print (2.4 * 1.23)
     print (13 + 223.4)
 
 Hierboven zie je dat er verscheidene berekeningen gedaan worden met floats. Als je met de input() functie werkt, wordt het belangrijk om hetzelfde trucje toe te kunnen passen als we eerder met de integers hebben gedaan. Als je namelijk niet expliciet het type informatie geeft aan de input() functie, gaat dit altijd als string behandeld worden. Maar als je het type int aan een float mee geeft krijg je hier een error van. Geef bij het volgende voorbeeld maar een float als input mee en kijk wat er gebeurt!
 
-\# In het engels werken mensen met punten i.p.v. komma's.
+In het engels werken mensen met punten i.p.v. komma's.
 
-\# Dus 3,4 is dan 3.4.
+Dus 3,4 is dan 3.4.
 
     x = int(input("Geef mij een getal"))
     y = int(input("Geef mij nog een getal!"))
@@ -467,11 +467,11 @@ Hierboven zie je dat er verscheidene berekeningen gedaan worden met floats. Als 
 
 Hierboven zie je dat er verscheidene berekeningen gedaan worden met floats. Als je met de input() functie werkt, wordt het belangrijk om hetzelfde trucje toe te kunnen passen als we eerder met de integers hebben gedaan. Als je namelijk niet expliciet het type informatie geeft aan de input() functie, gaat dit altijd als string behandeld worden. Maar als je het type int aan een float mee geeft krijg je hier een error van. Geef bij het volgende voorbeeld maar een float als input mee en kijk wat er gebeurt!
 
-\# geef als input bij dit programma maar een float. 
+geef als input bij dit programma maar een float. 
 
-\# In het engels werken mensen met punten i.p.v. komma's.
+In het engels werken mensen met punten i.p.v. komma's.
 
-\# Dus 3,4 is dan 3.4.
+3us 3,4 is dan 3.4.
 
     x = int(input("Geef mij een getal"))
     y = int(input("Geef mij nog een getal!"))
@@ -479,7 +479,7 @@ Hierboven zie je dat er verscheidene berekeningen gedaan worden met floats. Als 
 
 Om dit op te lossen kan je dus simpelweg in plaats van de functie int() de float() functie gebruiken. Als je dit doet, wordt de input behandeld als float en kan je hier dus weer berekeningen mee maken met getallen achter de komma.
 
-\# Nu wordt de input als float behandeld en kan de berekening wel op deze manier!
+# Nu wordt de input als float behandeld en kan de berekening wel op deze manier!
 
     x = float(input("Geef mij een getal"))
     y = float(input("Geef mij nog een getal!"))
@@ -487,66 +487,52 @@ Om dit op te lossen kan je dus simpelweg in plaats van de functie int() de float
 
 Het bovenstaande voorbeeld laat dus heel goed het verschil tussen float en int waardes zien. Bij berekeningen moet je hier dus goed op letten hoe je het in gaat voeren en wat voor antwoord je wilt krijgen. Verder kan het natuurlijk ook zo zijn dat je wilt dat een int of float als string behandeld wordt. Dit is namelijk nodig als je een variabele die een int of float bevat wilt printen. Een voorbeeld hiervan is het volgende:
 
-\# soms wil je een int of float als string printen zodat het goed leesbaar is
+soms wil je een int of float als string printen zodat het goed leesbaar is
 
-\# en je duidelijk kan maken wat wat is.
+en je duidelijk kan maken wat wat is.
 
-​
+    ​lievelings_getal = 5
+    mooiste_float = 4.3
+    print ("Mijn lievelings getal is " + str(lievelings_getal))
+    print ("Maar de mooiste float is " + str(mooiste_float) + "!")
+    print ("Zo zie je dat je eerst een int of float om moet zetten naar string!")
+    print ("Anders krijg je de volgende error:")
+    print ("")
+    print ("als ik mijn lievelings getal zo print krijg je een error: " + lievelings_getal)
 
-lievelings\_getal = 5
-
-mooiste\_float = 4.3
-
-​
-
-print ("Mijn lievelings getal is " + str(lievelings\_getal))
-
-print ("Maar de mooiste float is " + str(mooiste\_float) + "!")
-
-print ("Zo zie je dat je eerst een int of float om moet zetten naar string!")
-
-print ("Anders krijg je de volgende error:")
-
-print ("")
-
-print ("als ik mijn lievelings getal zo print krijg je een error: " + lievelings\_getal)
 ### Opgave 8
 Bedenk wat de types zijn van de volgende tien dingen. Kies uit integer, float of string.
 
-19 “3” 21.234 “Hoela hoepen” 24 \* 21.4 29 / 3 “293.3” 25.1 + 5 2 / 3 \* 9 8 + 30 / 10
+19 “3” 21.234 “Hoela hoepen” 24 * 21.4 29 / 3 “293.3” 25.1 + 5 2 / 3 * 9 8 + 30 / 10
 
 Zoals je hierboven kan zien, maakt het erg veel uit hoe je de berekening invoert. Voor de volgende opdracht ga je hier zelf een programma voor schrijven:
+
 ### Opdracht 9
-Schrijf een programma dat 2 of meer inputs vraagt, maak er een berekening mee en print het antwoord uit. In het programma moeten alle drie de datatypes voorkomen. 
+Schrijf een programma dat 2 of meer inputs vraagt, maak er een berekening mee en print het antwoord uit. In het programma moeten alle drie de datatypes voorkomen.
 
 Als je even niet meer weet wat voor type iets heeft, bestaat er een functie die je hiervoor kan gebruiken. Als je namelijk type(variabele) gebruikt, zegt de computer wat het type is.
 
-x = 8
+    x = 8
+    print (type(x))
+    print (type("hallo"))
+    print (type(4.5))
 
-print (type(x))
-
-print (type("hallo"))
-
-print (type(4.5))
 ### Rekenen met variabelen
-Nu we al die lastige informatie hebben verwerkt gaan we even weer verder met berekeningen met variabelen en deze straks combineren met strings! 
+Nu we al die lastige informatie hebben verwerkt gaan we even weer verder met berekeningen met variabelen en deze straks combineren met strings!
 
-We kunnen de variabelen bijvoorbeeld ook weer gebruiken om de turtle, die je hebt leren kennen in Python 0, vooruit te laten bewegen. In plaats van dat je een getal meegeeft aan de forward() functie, kun je bijvoorbeeld ook een variabelenaam meegeven. En ook een berekening met een variabele! Dat ziet er dan zo uit: turtle.forward(d\*10)
+We kunnen de variabelen bijvoorbeeld ook weer gebruiken om de turtle, die je hebt leren kennen in Python 0, vooruit te laten bewegen. In plaats van dat je een getal meegeeft aan de forward() functie, kun je bijvoorbeeld ook een variabelenaam meegeven. En ook een berekening met een variabele! Dat ziet er dan zo uit: turtle.forward(d*10)
+
 ### Opgave 1
 Wat wordt met de onderstaande code op het scherm geprint? Bedenk het eerst voor jezelf en probeer het daarna uit.
 
-getal1 = 10
+    getal1 = 10
+    getal2 = 15
+    getal3 = getal1 + getal2
+    getal4 = getal1 - getal2
+    getal1 = getal4 - getal3
+    getal1 = getal1 - 3
+    print (getal1)
 
-getal2 = 15
-
-getal3 = getal1 + getal2
-
-getal4 = getal1 - getal2
-
-getal1 = getal4 - getal3
-
-getal1 = getal1 - 3
-
-print (getal1)
 ### Opgave 2
+
 Schrijf een programma waarmee je twee variabelen instelt met een beginwaarde. De eerste met waarde 3 en de tweede variabele met waarde 8. De namen van de variabelen mag je zelf weten. Tel de twee getallen bij elkaar op en sla het resultaat op in een nieuwe variabele. Print uiteindelijk het resultaat naar het scherm.
