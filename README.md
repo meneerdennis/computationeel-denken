@@ -517,23 +517,3 @@ Als je even niet meer weet wat voor type iets heeft, bestaat er een functie die 
     print(type(x))
     print(type("hallo"))
     print(type(4.5))
-
-### Rekenen met variabelen
-Nu we al die lastige informatie hebben verwerkt gaan we even weer verder met berekeningen met variabelen en deze straks combineren met strings!
-
-We kunnen de variabelen bijvoorbeeld ook weer gebruiken om de turtle, die je hebt leren kennen in Python 0, vooruit te laten bewegen. In plaats van dat je een getal meegeeft aan de forward() functie, kun je bijvoorbeeld ook een variabelenaam meegeven. En ook een berekening met een variabele! Dat ziet er dan zo uit: turtle.forward(d*10)
-
-### Opgave 1
-Wat wordt met de onderstaande code op het scherm geprint? Bedenk het eerst voor jezelf en probeer het daarna uit.
-
-    getal1 = 10
-    getal2 = 15
-    getal3 = getal1 + getal2
-    getal4 = getal1 - getal2
-    getal1 = getal4 - getal3
-    getal1 = getal1 - 3
-    print(getal1)
-
-### Opgave 2
-
-Schrijf een programma waarmee je twee variabelen instelt met een beginwaarde. De eerste met waarde 3 en de tweede variabele met waarde 8. De namen van de variabelen mag je zelf weten. Tel de twee getallen bij elkaar op en sla het resultaat op in een nieuwe variabele. Print uiteindelijk het resultaat naar het scherm.
