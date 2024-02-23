@@ -391,7 +391,10 @@ Hint: denk aan concatenation!
 
 Schrijf een programma dat de gebruiker vraagt om een zelfstandig naamwoord (bv. boom, huis, kast), een bijvoeglijk naamwoord (bv. groot, vies, vervelend) en een infinitief van een werkwoord (bv. lopen, schrijven, eten). 
 
-Vul de ingevoerde vervolgens in, in de onderstaande zin en zet het resultaat op het beeld. Vond je ooit een zo ontzettend dat je het voortdurend opnieuw wilde ? Bijvoorbeeld: Vond je ooit een boom zo ontzettend mooi dat je het voortdurend opnieuw wilde knuffelen?
+Vul de ingevoerde vervolgens in, in de onderstaande zin en zet het resultaat op het beeld. 
+    Vond je ooit een (zelstandig naamwoord) zo ontzettend (bijvoeglijk naamwoord) dat je het voortdurend opnieuw wilde (infinitief) ? 
+
+Bijvoorbeeld: Vond je ooit een boom zo ontzettend mooi dat je het voortdurend opnieuw wilde knuffelen?
 
 ### Opgave 3:
 Zoek je verhaal op die je bij lesbrief 1 hebt gemaakt. Maar vraag nu de naam van de hoofdpersoon aan de gebruiker!
