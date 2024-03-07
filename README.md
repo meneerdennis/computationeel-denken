@@ -5,8 +5,6 @@
 
 [Les 3: Input en datatypes ](#Les-3-Input-en-datatypes)
 
-
-
 # Computationeel denken: Python
 
 # **Les 1: Print & variabelen**
